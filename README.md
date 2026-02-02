@@ -2,7 +2,7 @@
 Perfil profissional e portfólio de projetos em Análise de Dados
 # Olá, eu sou Fernando Milani Venerando
 
-G raduado em Cièncias da Computação pela FEI, com foco em transformar dados em insights para tomada de decisão.  
+Graduado em Cièncias da Computação pela FEI, com foco em transformar dados em insights para tomada de decisão.  
 Estou construindo um portfólio prático com projetos de análise, automação e visualização de dados.
 
 ---
