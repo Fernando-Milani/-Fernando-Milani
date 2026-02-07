@@ -1,0 +1,6 @@
+carrier_id,carrier_name,delay_risk
+1,TransLog,0.1
+2,RápidoX,0.25
+3,EntregaJá,0.18
+4,BrasilExpress,0.12
+5,SulCargo,0.3
