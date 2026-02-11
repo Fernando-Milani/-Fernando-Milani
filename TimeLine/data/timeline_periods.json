@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "version": "0.1"
+  },
+  "root": "period_historia_humana",
+  "periods": {
+    "period_historia_humana": {
+      "id": "period_historia_humana",
+      "title": "História Humana",
+      "startYear": -100000,
+      "endYear": 2025,
+      "children": [
+        "period_anos_60",
+        "period_guerra_fria"
+      ],
+      "importance": 10
+    },
+    "period_anos_60": {
+      "id": "period_anos_60",
+      "title": "Década de 1960",
+      "startYear": 1960,
+      "endYear": 1969,
+      "children": [
+        "event_1969_apollo_11"
+      ],
+      "importance": 8
+    },
+    "period_guerra_fria": {
+    "id": "period_guerra_fria",
+    "title": "Guerra Fria",
+    "startYear": 1947,
+    "endYear": 1991,
+    "children": [
+      "event_1969_apollo_11"
+    ],
+    "importance": 9
+    }
+  }
+}

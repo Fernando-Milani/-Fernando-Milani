@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "version": "0.1",
+    "updated_at": "2026-02-11"
+  },
+  "events": {
+    "event_1969_apollo_11": {
+      "id": "event_1969_apollo_11",
+      "title": "Apollo 11 – Chegada do Homem à Lua",
+      "date": "1969-06-19",
+      "importance": 9,
+      "categories": [
+        "ciencia",
+        "guerra_fria"
+      ],
+      "tags": [
+        "nasa",
+        "lua",
+        "corrida espacial"
+      ],
+      "contentRef": "events/apollo_11.md"
+    },
+    "event_1789_french_revolution": {
+      "id": "event_1789_french_revolution",
+      "title": "Revolução Francesa",
+      "date": "1789-01-01",
+      "importance": 7,
+      "categories": [
+        "politica",
+        "crise"
+      ],
+      "tags": [
+        "frança",
+        "revoluçao",
+        "seculo 18"
+      ]
+    }
+  }
+}
