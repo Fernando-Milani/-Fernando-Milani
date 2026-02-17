@@ -1,39 +1,174 @@
 {
   "meta": {
-    "version": "0.1"
+    "version": "0.4"
   },
   "root": "period_historia_humana",
   "periods": {
-    "period_historia_humana": {
-      "id": "period_historia_humana",
-      "title": "História Humana",
-      "startYear": -100000,
-      "endYear": 2025,
-      "children": [
-        "period_anos_60",
-        "period_guerra_fria"
+    "period_paleolitico": {
+      "id": "period_paleolitico",
+      "title": "Paleolítico",
+      "startYear": -2500000,
+      "endYear": -10000,
+      "children": [],
+      "importance": 7,
+      "categories": [
+        "Pré-História"
       ],
-      "importance": 10
+      "tags": [
+        "fogo",
+        "nomadismo"
+      ],
+      "contentFile": "periods/period_paleolitico.html"
     },
-    "period_anos_60": {
-      "id": "period_anos_60",
-      "title": "Década de 1960",
-      "startYear": 1960,
-      "endYear": 1969,
-      "children": [
-        "event_1969_apollo_11"
+    "period_neolitico": {
+      "id": "period_neolitico",
+      "title": "Neolítico",
+      "startYear": -10000,
+      "endYear": -3500,
+      "children": [],
+      "importance": 7,
+      "categories": [
+        "Agricultura"
       ],
-      "importance": 8
+      "tags": [
+        "agricultura",
+        "aldeias"
+      ],
+      "contentFile": "periods/period_neolitico.html"
+    },
+    "period_egito_antigo": {
+      "id": "period_egito_antigo",
+      "title": "Egito Antigo",
+      "startYear": -3100,
+      "endYear": -30,
+      "children": [],
+      "importance": 10,
+      "categories": [
+        "Antiguidade"
+      ],
+      "tags": [
+        "faraós",
+        "pirâmides",
+        "africa"
+      ],
+      "contentFile": "periods/period_egito_antigo.html"
+    },
+    "period_grecia_antiga": {
+      "id": "period_grecia_antiga",
+      "title": "Grécia Antiga",
+      "startYear": -800,
+      "endYear": -146,
+      "children": [],
+      "importance": 10,
+      "categories": [
+        "Antiguidade"
+      ],
+      "tags": [
+        "democracia",
+        "mitologia",
+        "europa"
+      ],
+      "contentFile": "periods/period_grecia_antiga.html"
+    },
+    "period_imperio_romano": {
+      "id": "period_imperio_romano",
+      "title": "Império Romano",
+      "startYear": -27,
+      "endYear": 476,
+      "children": [],
+      "importance": 9,
+      "categories": [
+        "Antiguidade"
+      ],
+      "tags": [
+        "europa"
+      ],
+      "contentFile": "periods/period_imperio_romano.html"
+    },
+    "period_idade_media": {
+      "id": "period_idade_media",
+      "title": "Idade Média",
+      "startYear": 476,
+      "endYear": 1453,
+      "children": [],
+      "importance": 9,
+      "categories": [
+        "História"
+      ],
+      "tags": [
+        "feudalismo"
+      ],
+      "contentFile": "periods/period_idade_media.html"
+    },
+    "period_idade_moderna": {
+      "id": "period_idade_moderna",
+      "title": "Idade Moderna",
+      "startYear": 1453,
+      "endYear": 1789,
+      "children": [],
+      "importance": 9,
+      "categories": [
+        "História"
+      ],
+      "tags": [
+        "renascimento",
+        "renascenca"
+      ],
+      "contentFile": "periods/period_idade_moderna.html"
     },
     "period_guerra_fria": {
-    "id": "period_guerra_fria",
-    "title": "Guerra Fria",
-    "startYear": 1947,
-    "endYear": 1991,
-    "children": [
-      "event_1969_apollo_11"
-    ],
-    "importance": 9
+      "id": "period_guerra_fria",
+      "title": "Guerra Fria",
+      "startYear": 1947,
+      "endYear": 1991,
+      "children": [],
+      "importance": 6,
+      "categories": [
+        "História",
+        "Guerra",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "estados unidos",
+        "urss"
+      ],
+      "contentFile": "periods/period_guerra_fria.html"
+    },
+    "period_ww1": {
+      "id": "period_ww1",
+      "title": "Primeira Guerra Mundial",
+      "startYear": 1914,
+      "endYear": 1918,
+      "children": [],
+      "importance": 7,
+      "categories": [
+        "guerra",
+        "europa"
+      ],
+      "tags": [
+        "guerra",
+        "europa"
+      ],
+      "contentFile": "periods/period_ww1.html"
+    },
+    "period_ww2": {
+      "id": "period_ww2",
+      "title": "Segunda Guerra Mundial",
+      "startYear": 1939,
+      "endYear": 1945,
+      "children": [],
+      "importance": 7,
+      "categories": [
+        "guerra",
+        "europa"
+      ],
+      "tags": [
+        "guerra",
+        "hitler",
+        "nazismo",
+        "europa"
+      ],
+      "contentFile": "periods/period_ww2.html"
     }
   }
 }

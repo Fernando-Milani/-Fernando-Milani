@@ -30,3 +30,38 @@ Criar uma base de dados histórica estruturada que permita:
 ---
 
 ## 📁 Estrutura do Projeto
+
+---
+
+## Dependências
+- -m pip install InquirerPy
+- python -m http.server
+
+
+### Funções e correções pendentes
+- Eventos podem aceitar data completa (Dia, mês e ano), ou somente o ano
+- Datas imprecisas (Adicionar data central e margem de erro)
+- Destaque e seleção TL <-> Card
+- Favoritar
+- Filtro de cards (ordenar por nome, data, etc)
+- Modificar verificação de datas em eventos
+- Estilização
+
+### Funções e correções feitas
+- Transformar anos negativo em a.C. (-2500 -> 2500 a.C.)
+- Editar eventos e períodos pelo manager
+- Quando um evento for apagado, apagar também as referências a ele nos períodos
+- LoD na TL
+- Medições na TL (Min, mid, max, mouse pointer)
+
+
+
+<article>
+  <h1></h1>
+
+  <img src="" alt="">
+
+  <p>
+    
+  </p>
+</article>
